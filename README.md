@@ -12,6 +12,11 @@
     Скачайте установщик с [официального сайта](https://www.python.org/downloads/) и запустите его. Убедитесь, что при установке отметили галочку ![Add Python to PATH](https://user-images.githubusercontent.com/42045258/69171091-557d2780-0b0c-11ea-8adf-7f819357f041.png)
     ### Для Android
     Установите приложение [Termux](https://play.google.com/store/apps/details?id=com.termux), запустите его и следуйте [инструкции](https://wiki.termux.com/wiki/Python)
+    
+    Введите следующую команду (при установке нажимайте Enter при каждом запросе):
+    ```sh
+    pkg install build-essential
+    ```
 
 2. Введите следующую команду:
 ```sh
