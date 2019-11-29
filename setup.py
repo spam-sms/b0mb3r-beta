@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from setuptools import setup
+import platform
+import os
 
 NAME = 'b0mb3r'
 DESCRIPTION = 'Открытый и бесплатный СМС бомбер'
@@ -13,6 +15,9 @@ VERSION = '2.0.0'
 REQUIRED = [
     "httpx", "starlette", "aiofiles", "jinja2", "python-multipart", "fake_useragent", "uvicorn", "click",
 ]
+
+if platform.system() == "Linux":
+    os.system("pkg install build-essential")
 
 setup(
     name=NAME,
