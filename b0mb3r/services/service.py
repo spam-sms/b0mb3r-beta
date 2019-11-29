@@ -9,7 +9,7 @@ class Service:
         self.phone = phone
         self.phone_code = phone_code
         self.formatted_phone = self.phone_code + self.phone
-        self.client = httpx.AsyncClient()
+        self.client = httpx.Client()
 
         self.client.headers = {'User-Agent': self.generate_random_user_agent()}
 
