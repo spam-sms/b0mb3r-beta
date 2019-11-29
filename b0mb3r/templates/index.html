@@ -89,7 +89,7 @@
                     'animation-direction': 'reverse'
                 });
             },
-            error: function () {
+            error: function (data) {
                 setTimeout(function () {
                     $('#block-ui').css('display', 'none');
                 }, 600);
@@ -106,6 +106,7 @@
                     'animation-fill-mode': 'both',
                     'animation-direction': 'reverse'
                 });
+                alert(data);
             }
         });
     });
