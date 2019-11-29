@@ -11,7 +11,7 @@ REQUIRES_PYTHON = '>=3.6.0'
 VERSION = '2.0.0'
 
 REQUIRED = [
-    "httpx", "starlette[full]", "fake_useragent", "uvicorn", "click",
+    "httpx", "starlette", "aiofiles", "jinja2", "python-multipart", "fake_useragent", "uvicorn", "click",
 ]
 
 setup(
