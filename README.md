@@ -18,7 +18,7 @@
 
 2. Введите следующую команду:
 ```sh
-pip install https://github.com/crinny/b0mb3r-beta/archive/master.zip --upgrade
+pip install https://github.com/spam-sms/b0mb3r-beta/archive/master.zip --upgrade
 ```
 Для запуска необходимо лишь ввести команду `b0mb3r`. Она будет доступна из любой директории
 
